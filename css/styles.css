@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+#title {
+  background-color: #ff4c68;
+  position: relative;
+  z-index: -1;
+}
+
+.container-fluid {
+  padding: 3% 15% !important;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem !important;
+  font-weight: bolder !important;
+  color: white;
+}
+
+/* navbar */
+.navbar {
+  padding: 0 0 4.5rem !important;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 30px !important;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+.app-row {
+  position: relative;
+  padding: 8% 12%;
+  /* padding-top: 150px; */
+  background-color: #fff;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold !important;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.colm {
+  padding: 0 1.5% !important;
+  text-align: center;
+}
+
+.fcon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.fcon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  padding: 8% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem !important;
+  font-weight: bolder !important;
+  color: white;
+}
+
+.testimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 5px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.cd-h {
+  height: 272px;
+}
+
+.cd-f {
+  height: 73px;
+}
+
+.fixrow {
+  padding-bottom: 10%;
+}
+
+@media (max-width: 992px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center !important;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.foot-contain {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  line-height: 3.5rem !important;
+  font-weight: bolder !important;
+  color: white;
+}
+
+.foot-con {
+  padding: 8% 15% !important;
+}
+
+.foot-but {
+  padding-top: 5% !important;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+}
